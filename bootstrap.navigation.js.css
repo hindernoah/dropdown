@@ -1,0 +1,114 @@
+/*!
+
+Button Class:
+
+.btn-default
+
+Dropdown Class:
+
+.dropdown-menu
+*/
+
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+        
+}
+
+.btn.active.focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn:active:focus,.btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn.focus,.btn:focus,.btn:hover{
+    color: #FFFFFF;
+    text-decoration: none
+}.btn.active,.btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;filter:alpha(opacity=65);opacity:.65;-webkit-box-shadow:none;box-shadow:none}a.btn.disabled,fieldset[disabled] a.btn{pointer-events:none}.btn-default{
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+}.btn-default.focus,.btn-default:focus{
+    color: #FFFFFF;
+    background-color: #00AEFF
+}.btn-default:hover{
+    color: #FFFFFF;
+    background-color: #00AEFF
+}.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{
+    color: #FFFFFF;
+    background-color: #00AEFF;
+    background-image: none
+}.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.dropdown-toggle.btn-default.focus,.open>.dropdown-toggle.btn-default:focus,.open>.dropdown-toggle.btn-default:hover{
+    color: #FFFFFF;
+    background-color: #00AEFF
+}
+
+.dropdown,.dropup{position:relative}
+
+.dropdown-toggle:focus{outline:0}
+
+
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)
+}.dropdown-menu.pull-right{right:0;left:auto}.dropdown-menu .divider{
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden
+}.dropdown-menu>li>a{
+    display: block;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #000000;
+    white-space: nowrap
+}.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{
+    color: #262626;
+    text-decoration: none;
+    background-color: #E1E1E1
+}
+
+
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover{
+    color: #fff;
+    text-decoration: none;    
+    outline: 0;
+}
+.dropdown-menu>.disabled>a,.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover{color:#777}.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover{text-decoration:none;cursor:not-allowed;background-color:transparent;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}.open>.dropdown-menu{display:block}.open>a{outline:0}.dropdown-menu-right{right:0;left:auto}.dropdown-menu-left{right:auto;left:0}.dropdown-header{display:block;padding:3px 20px;font-size:12px;line-height:1.42857143;color:#777;white-space:nowrap}.dropdown-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:990}.pull-right>.dropdown-menu{right:0;left:auto}.dropup
